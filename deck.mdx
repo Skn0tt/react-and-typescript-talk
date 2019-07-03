@@ -1,0 +1,120 @@
+import { Notes } from 'mdx-deck'
+export { swiss as theme } from '@mdx-deck/themes'
+
+# React and TypeScript
+
+What's TypeScript?<br/>
+How can I use it with React?<br/>
+Why should I use it?<br/>
+
+---
+
+import { Split } from "mdx-deck/layouts"
+
+<Split>
+
+<div>
+
+Hi! I'm Simon.<br/>
+I'm a mobile app developer at OrbiTeam.
+
+I've been working with React, React Native and TypeScript for two years.
+
+</div>
+
+<img
+  src="https://www.bscw.de/wordpress/wp-content/uploads/2018/01/orbiteam.png"
+  alt="OrbiTeam"
+/>
+
+</Split>
+
+---
+
+# What's TypeScript?
+
+---
+
+> TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.
+> ~ typescriptlang.org
+
+---
+
+Live Coding!
+
+<Notes>
+
+- Part I: Typing plain JS
+  - show file that we're going to type
+
+  - install tsc `yarn global add typescript`
+  - initialize a project `tsc --init`
+  
+  - type the code to show the features of TS
+
+- Part II: Typing React code
+  - show project that we're going to type
+    - class components
+    - FCs, Hooks
+    - Redux
+  - type the React code
+
+</Notes>
+
+---
+
+TypeScript is ...
+
+... a type-checker for your JS projects
+... a way to document your code in a machine-readable way
+
+TypeScript is **not** ...
+
+... a different way to write JS
+... a way to fully prevent type errors
+
+<Notes>
+
+TypeScript is ...
+
+... a type-checker for your JS projects
+... a way to document your code in a machine-readable way (TS forces you to document it)
+
+TypeScript is **not** ...
+
+... a new way to write JS (It's still JS that it's compiled to and you have to think about its flaws (Java folks!))
+... a way to fully prevent type errors (not everything is (correctly) typed)
+
+</Notes>
+
+---
+
+TODO: Show EntE
+
+---
+
+TypeScript can help you ...
+
+... when you want to add some structure to a big project
+... when you come back to a project after a break
+... when you're refactoring a project
+
+TypeScript will fight you ...
+
+... when you use the `any` type
+... when a lot of your dependencies are untyped or wrongly typed
+... when you try to write Java-like code "because there are types"
+
+<Notes>
+TypeScript can help you ...
+
+... when you want to add some structure to a big project (b.c. types can make it easier to navigate)
+... when you come back to a project after a break
+... when you're refactoring a project
+
+TypeScript will fight you ...
+
+... when you use the `any` type
+... when a lot of your dependencies are untyped or wrongly typed
+... when you try to write Java-like code "because there are types"
+</Notes>

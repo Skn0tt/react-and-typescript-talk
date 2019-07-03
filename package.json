@@ -1,0 +1,12 @@
+{
+  "name": "react-and-typescript-talk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "mdx-deck": "^2.4.0"
+  },
+  "scripts": {
+    "start": "mdx-deck deck.mdx"
+  }
+}
