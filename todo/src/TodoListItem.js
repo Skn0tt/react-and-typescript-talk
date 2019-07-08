@@ -19,7 +19,6 @@ export const TodoListItem = props => {
         onClick={state => {
           onComplete(item.id);
         }}
-        leftText={item.name}
       />
       
     </View>
