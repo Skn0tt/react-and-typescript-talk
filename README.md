@@ -1,7 +1,7 @@
 # Talk: React and Typescript
 
 - [Slides](https://docs.google.com/presentation/d/1kMeWBTA-TU0u7nwAM4jm6o0vqtpP3MJZC9dqCbz9dh0/edit?usp=sharing)
-- [Blog Post](TODO:)
+- [Blog Post](https://simonknott.de/articles/Using-TypeScript-with-React.html)
 
 This repository contains the corresponding code to my talk about React and TypeScript.
 
